@@ -102,8 +102,7 @@ public class MenuPage extends BasePage {
 
     public void upload (){
         getDriver().findElement(By.xpath("(//input[@id='upload'])[1]"))
-                .sendKeys("C:"+ File.separator+"Users"+File.separator+"gbcun"
-                        +File.separator+"Desktop"+File.separator+"teste.pdf");
+                .sendKeys("C:"+ File.separator+"teste"+File.separator+"teste.pdf");
     }
 
     public void scrollDown (){
